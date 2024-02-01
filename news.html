@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.ico">
+    <title>Catherine Hope - About</title>
+</head>
+<body>
+    <!-- Header Navigation Bar -->
+    <nav class="header-bar-nav">
+        <div class="header-bar-left">
+            <h1 class="author-name"><a href="./index.html" style="cursor: pointer">Catherine Hope</a></h1>
+        </div>
+        <div class="header-bar-mid">
+            <ul class="header-list">
+                <li><a href='./about.html'>About</a></li>
+                <li class="active-link"><a href='./news.html'>News</a></li>
+                <li><a href='./books.html'>Books</a></li>
+            </ul>
+        </div>
+        <div class="header-bar-right">
+            <a href="https://www.instagram.com/catherinehopebooks/" target="_blank" rel="noopener noreferrer">
+                <button class="header-button">
+                    <img src="./Assets/insta-minimal.png">
+                </button>
+            </a>
+            <a href="https://twitter.com/CatherineHopeBk" target="_blank" rel="noopener noreferrer">
+                <button class="header-button">
+                    <img src="./Assets/x-minimal.png">
+                </button>
+            </a>
+        </div>
+    </nav>
+    
+    <!-- Slideshow -->
+    <div class="slideshow-container">
+        <div id="slideshow">
+            <!-- Slide Main -->
+            <div class="slide-main main-active">
+                <h1 style="margin-bottom: 20px; margin-top: -10px">News</h1>
+                <a href="https://www.instagram.com/p/Cr-06MPNhfQ/" target="_blank" rel="noopener noreferrer" style="cursor: pointer">
+                    <img src="./Assets/news.png" alt="Main News Slide" class="main-img" style="max-width: 350px">
+                </a>
+                <br>
+            </div>
+            <hr>
+            <div class="slide-arrows">
+                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bar -->
+    <div class="footer-bar">
+        <div class="footer-left">
+            <p>
+                Design by Graydon W.
+            </p>
+        </div>
+        <div class="footer-mid">
+            <p>
+                Contact
+            </p>
+        </div>
+        <div class="footer-right">
+            <p>
+                Copyright © 2024 Catherine Hope
+            </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
